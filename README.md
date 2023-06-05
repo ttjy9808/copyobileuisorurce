@@ -104,7 +104,7 @@ function Library:CreateWindow(windowname,windowinfo)
     Yep.BorderColor3 = Color3.fromRGB(20, 20, 20)
     Yep.BorderSizePixel = 0
     Yep.Position = UDim2.new(0.88499999, 0, 0.0495263338, 0)
-    Yep.Size = UDim2.new(0, 38, 0, 22)
+    Yep.Size = UDim2.new(0, 10, 0, 10)
     Yep.AutoButtonColor = false
     Yep.Font = Enum.Font.SourceSans
     Yep.Text = ""
