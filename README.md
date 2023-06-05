@@ -348,7 +348,7 @@ function Library:CreateWindow(windowname,windowinfo)
             ButtonHolder.BorderColor3 = Color3.fromRGB(17, 17, 17)
             ButtonHolder.BorderSizePixel = 0
             ButtonHolder.Position = UDim2.new(0.0167785231, 0, 0, 0)
-            ButtonHolder.Size = UDim2.new(0, 288, 0, 26)
+            ButtonHolder.Size = UDim2.new(0, 200, 0, 20)
             
             Button.Name = "Button"
             Button.Parent = ButtonHolder
