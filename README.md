@@ -103,8 +103,8 @@ function Library:CreateWindow(windowname,windowinfo)
     Yep.BackgroundTransparency = 1.000
     Yep.BorderColor3 = Color3.fromRGB(20, 20, 20)
     Yep.BorderSizePixel = 0
-    Yep.Position = UDim2.new(0.88499999, 0, 0.0495263338, 0)
-    Yep.Size = UDim2.new(0, 10, 0, 10)
+    Yep.Position = UDim2.new(0.884, -10, 0.05, 0)
+    Yep.Size = UDim2.new(0, 18, 0, 22)
     Yep.AutoButtonColor = false
     Yep.Font = Enum.Font.SourceSans
     Yep.Text = ""
