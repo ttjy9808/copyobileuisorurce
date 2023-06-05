@@ -217,8 +217,8 @@ function Library:CreateWindow(windowname,windowinfo)
         Tab.Parent = TabContainer
         Tab.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
         Tab.BorderColor3 = Color3.fromRGB(15, 15, 15)
-        Tab.Position = UDim2.new(-0.0250000004, 0, 0, 0)
-        Tab.Size = UDim2.new(0, 106, 0, 26)
+        Tab.Position = UDim2.new(0.025, 0, 0, 0)
+	Tab.Size = UDim2.new(0, 80, 0, 20)
         Tab.AutoButtonColor = false
         Tab.Font = Enum.Font.GothamSemibold
         Tab.Text = pagename or "nil"
