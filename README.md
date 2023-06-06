@@ -99,11 +99,10 @@ function Library:CreateWindow(windowname,windowinfo)
 
     Yep.Name = "Yep"
     Yep.Parent = Frame
-    Yep.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+    Yep.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
     Yep.BackgroundTransparency = 1.000
-    Yep.BorderColor3 = Color3.new(1, 0, 0)
-    Yep.BorderColor3 = Color3.fromRGB(20, 20, 20)
-    Yep.BorderSizePixel = 0
+    Yep.BorderColor3 = Color3.fromRGB(255, 0, 0)
+    Yep.BorderSizePixel = 3
     Yep.Position = UDim2.new(0.884, -20, 0.05, 0)
     Yep.Size = UDim2.new(0, 8, 0, 22)
     Yep.AutoButtonColor = false
@@ -244,7 +243,7 @@ function Library:CreateWindow(windowname,windowinfo)
         Home.ScrollBarImageColor3 = Color3.fromRGB(5,5,5)
         Home.CanvasSize = UDim2.new(0,0,scrollsize,0) or UDim2.new(0,0,4,0)
         Home.Visible = visible or false
-        print("update test69")
+        print("update test666")
         PageLayout.Name = "PageLayout"
         PageLayout.Parent = Home
         PageLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
