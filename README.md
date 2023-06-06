@@ -357,7 +357,7 @@ function Library:CreateWindow(windowname,windowinfo)
 	    Button.BorderColor3 = Color3.new(1, 0, 0)
             Button.BackgroundTransparency = 1.000
             Button.BorderColor3 = Color3.fromRGB(17, 17, 17)
-            Button.BorderSizePixel = 0
+            Button.BorderSizePixel = 1
             Button.Size = UDim2.new(0, 200, 0, 20)
             Button.AutoButtonColor = false
             Button.Font = Enum.Font.GothamSemibold
