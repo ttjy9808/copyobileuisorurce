@@ -355,7 +355,7 @@ function Library:CreateWindow(windowname,windowinfo)
             Button.Parent = ButtonHolder
             Button.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
 	    Button.BorderColor3 = Color3.fromRGB(255, 0, 0)
-	    Button.Style = Enum.ButtonStyle.Outline -- Set border mode to outline
+	    Button.BorderMode = Enum.BorderMode.Outline 
 	    Button.BorderSizePixel = 3 -- Set border pixel size to 3
             Button.BackgroundTransparency = 1.000
             Button.Size = UDim2.new(0, 200, 0, 20)
