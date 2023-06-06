@@ -244,7 +244,7 @@ function Library:CreateWindow(windowname,windowinfo)
         Home.ScrollBarImageColor3 = Color3.fromRGB(5,5,5)
         Home.CanvasSize = UDim2.new(0,0,scrollsize,0) or UDim2.new(0,0,4,0)
         Home.Visible = visible or false
-        print("update test4")
+        print("update test5")
         PageLayout.Name = "PageLayout"
         PageLayout.Parent = Home
         PageLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -317,7 +317,7 @@ function Library:CreateWindow(windowname,windowinfo)
             LabelTitle.Size = UDim2.new(0, 288, 0, 15)
             LabelTitle.Font = Enum.Font.GothamSemibold
             LabelTitle.Text = labelname or ""
-            LabelTitle.TextColor3 = Color3.fromRGB(255, 255, 255)
+            LabelTitle.TextColor3 = Color3.fromRGB(255, 0, 0)
             LabelTitle.TextSize = 11.000
             
             LabelInfo.Name = "LabelInfo"
@@ -362,7 +362,7 @@ function Library:CreateWindow(windowname,windowinfo)
             Button.AutoButtonColor = false
             Button.Font = Enum.Font.GothamSemibold
             Button.Text = buttonname
-            Button.TextColor3 = Color3.fromRGB(255, 255, 255)
+            Button.TextColor3 = Color3.fromRGB(0, 255, 0) 
             Button.TextSize = 11.000
             
             ButtonCorner.CornerRadius = UDim.new(0, 5)
