@@ -101,6 +101,7 @@ function Library:CreateWindow(windowname,windowinfo)
     Yep.Parent = Frame
     Yep.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
     Yep.BackgroundTransparency = 1.000
+    Yep.BorderColor3 = Color3.new(1, 0, 0)
     Yep.BorderColor3 = Color3.fromRGB(20, 20, 20)
     Yep.BorderSizePixel = 0
     Yep.Position = UDim2.new(0.884, -20, 0.05, 0)
@@ -353,6 +354,7 @@ function Library:CreateWindow(windowname,windowinfo)
             Button.Name = "Button"
             Button.Parent = ButtonHolder
             Button.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+	    Button.BorderColor3 = Color3.new(1, 0, 0)
             Button.BackgroundTransparency = 1.000
             Button.BorderColor3 = Color3.fromRGB(17, 17, 17)
             Button.BorderSizePixel = 0
