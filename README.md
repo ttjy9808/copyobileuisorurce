@@ -243,7 +243,7 @@ function Library:CreateWindow(windowname,windowinfo)
         Home.ScrollBarImageColor3 = Color3.fromRGB(5,5,5)
         Home.CanvasSize = UDim2.new(0,0,scrollsize,0) or UDim2.new(0,0,4,0)
         Home.Visible = visible or false
-        print("update1")
+        print("update2")
         PageLayout.Name = "PageLayout"
         PageLayout.Parent = Home
         PageLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
@@ -352,6 +352,7 @@ function Library:CreateWindow(windowname,windowinfo)
             
             Button.Name = "Button"
             Button.Parent = ButtonHolder
+	    Button.BackgroundTransparency = 0
             Button.BackgroundColor3 = Color3.fromRGB(147, 147, 147)
 	    Button.BorderColor3 = Color3.fromRGB(255, 0, 0)
 	    Button.BorderMode = Enum.BorderMode.Outline 
