@@ -243,7 +243,7 @@ function Library:CreateWindow(windowname,windowinfo)
         Home.ScrollBarImageColor3 = Color3.fromRGB(5,5,5)
         Home.CanvasSize = UDim2.new(0,0,scrollsize,0) or UDim2.new(0,0,4,0)
         Home.Visible = visible or false
-        print("update2")
+        print("update3")
         PageLayout.Name = "PageLayout"
         PageLayout.Parent = Home
         PageLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
